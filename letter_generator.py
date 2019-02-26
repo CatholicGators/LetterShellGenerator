@@ -1,7 +1,7 @@
 import csv, sys
 
 if len(sys.argv) != 3:
-    print('Usage: python3 %s <team member list> <your name>' % sys.argv[0])
+    print('Usage: python3 %s <"to" list> <your name>' % sys.argv[0])
     sys.exit(1)
 
 TO_LIST_FILE_NAME = sys.argv[1]
